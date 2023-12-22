@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyProjectBorisov</string>
+    <string name="String1">123</string>
+    <string name="String2">Введите логин</string>
+    <string name="String3">Введите пароль</string>
+    <string name="String4">Войти</string>
+    <string name="String5">Выйти</string>
+    <string name="String6">Зарегистрироваться</string>
+    <string name="String7">Повторите пароль</string>
+    <string name="String8">Фото</string>
+    <string name="String9">Add</string>
+    <string name="String10">Exit</string>
+    <string name="String11">Введите ФИО</string>
+</resources>

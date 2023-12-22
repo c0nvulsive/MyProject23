@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registr">
+
+        <EditText
+            android:id="@+id/PasswordRegistr"
+            android:layout_width="244dp"
+            android:layout_height="48dp"
+            android:layout_margin="30dp"
+            android:gravity="center"
+            android:hint="@string/String3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.556"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/FioRegistr"
+            android:layout_width="244dp"
+            android:layout_height="48dp"
+            android:layout_margin="30dp"
+            android:gravity="center"
+            android:hint="@string/String11"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.461"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/loginRegistr"
+            android:layout_width="244dp"
+            android:layout_height="48dp"
+            android:layout_margin="30dp"
+            android:gravity="center"
+            android:hint="@string/String2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.363"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/RegistrButton"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/material_dynamic_primary0"
+            android:text="@string/String6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.747" />
+
+        <EditText
+            android:id="@+id/EmailRegistr"
+            android:layout_width="244dp"
+            android:layout_height="48dp"
+            android:layout_margin="30dp"
+            android:gravity="center"
+            android:hint="Введите Email"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.645"
+            tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
